@@ -1,0 +1,86 @@
+.row-payment{
+ display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+
+  h3{
+      font-weight:900;
+  }
+}
+
+.form-payment{
+    display: flex;
+    flex-direction: column;
+}
+.btn-purchase{
+    display: inline-block;
+  background: #019FFF;
+  color: #fff !important;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.5s;
+  border: none;
+  width: fit-content;
+}
+
+.btn-purchase:hover {
+    background: #fff;
+    color: #000 !important;
+    border: 1px solid #019FFF;
+    color: #019FFF;
+  }
+
+.StripeElement {
+    box-sizing: border-box;
+  
+    height: 40px;
+  
+    padding: 10px 12px;
+  
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+  
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+    width: 75%;
+    margin-bottom: 20px;
+  }
+  
+  .StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+  }
+  
+  .StripeElement--invalid {
+    border-color: #fa755a;
+  }
+  
+  .StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+  }
+
+  .a-box-normal-payment{
+    height: 350px;
+    width: 100%;
+    border-width: 1px;
+    box-sizing: border-box;
+    border-color: #c7c7c7;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.16);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+
+    form{
+        margin-left: 40px;
+    }
+  }

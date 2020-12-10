@@ -1,0 +1,94 @@
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.mt-1 {
+  margin-top: 10px !important;
+}
+
+.mt-2 {
+  margin-top: 20px !important;
+}
+
+.input-number {
+  border-radius: 0.5rem;
+  border: 1px solid rgba(159, 160, 160, 0.349);
+  padding: 10px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.f-row {
+  flex-direction: row !important;
+}
+
+.f-col {
+  flex-direction: column !important;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.jus-cen {
+  justify-content: center !important;
+}
+
+.ali-cen {
+  align-items: center !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+.mb-5 {
+  margin-bottom: 60px;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif !important;
+  p {
+    margin-bottom: 10px !important ;
+  }
+  p::before {
+    content: ". ";
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+}
+
+.content-route {
+  min-height: 40vh;
+}
+
+.small-img-row {
+  img {
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+  }
+}
+
+.col-50 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mt-5 {
+  margin-top: 50px !important;
+}
+
+#product-img {
+  width: 80%;
+  object-fit: cover;
+}

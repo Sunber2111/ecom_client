@@ -1,0 +1,35 @@
+.fil-bar {
+  left: 0;
+  top: 17%;
+  width: 15%;
+  background-color: white;
+  box-shadow: 2px 2px 6px #a09e9d85;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+
+  .title {
+    font-size: 1.3rem !important;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  .title::after {
+    width: 95% !important;
+  }
+
+  .title-filter {
+    font-size: 1rem !important;
+    font-weight: 500;
+    font-weight: 700;
+  }
+
+  .divide{
+    width: 100%;
+    height: .5px;
+    margin: 10px 0px;
+    background: rgba(119, 119, 119, 0.418);
+  }
+
+
+}
